@@ -1,0 +1,367 @@
+html, body{
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f7f7f7;
+}
+
+
+
+/*carregamento*/
+.carregado{
+	height: 100%;
+	background-color: #f7f7f7;
+	opacity: 1;
+}
+.loader {
+    border: 16px solid #d8b3b3;
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin: auto;
+    margin-top: 20%;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/*Header*/
+header{
+	background-image: url(../headermobile.png);
+	background-size: cover;
+	background-position: top center;
+	height: 100vh;
+}
+
+.mensagem-header{
+	background-color: transparent;
+    border: none;
+	top: 20%;
+	position: absolute;
+}
+.card-mensagem {
+    	font-size: 3rem;
+	}
+.texto-serv{
+	font-size: .9rem;
+}
+.titulo-mensagem{
+	color: white;
+}
+
+.titulo-espacamento{
+	margin-top: 10%;
+}
+
+.btn-mensagem{
+	background-color: transparent;
+	color: white;
+	box-shadow: 0 0 0 0.2rem white;
+}
+
+.btn-mensagem:hover{
+	background-color: transparent;
+	color: white;
+	box-shadow: 0 0 0 0.2rem #055e9e;
+}
+
+.navbar-toggler-icon{
+	color: white;
+}
+
+.item-menu{
+	color: white!important;
+}
+
+.item-menu-azul{
+	color: #044676!important;
+}
+
+.navbar-bg{
+	background-color: transparent;
+}
+.navbar-white{
+	background-color: white;
+}
+.justify-navbar{
+	justify-content: flex-end;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(4,70,117, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #044676;
+}
+
+.nav-item
+
+/*Main*/
+
+main{
+
+	background-color: white;
+    position: relative;
+}
+
+/*QUEM SOMOS*/
+.quem-somos{
+	background-color: #f7f7f7;
+	color: #044676;
+	padding-top: 70px;
+    opacity: 0;
+	/*transform: translateY(50px);*/
+	transition: all 1s ease-out;
+}
+.quem-somos.fade-in{
+	opacity: 1;
+/*	transform: translateY(0);*/
+}
+.quem-somos-texto{
+	color: #353435;
+}
+
+.btn-quemsomos{
+	background-color: #044676;
+	color: #f7f7f7;
+}
+.btn-quemsomos:hover{
+	background-color: #055e9e;
+	color: #f7f7f7;
+}
+.jumbotron{
+	margin-bottom: 0;
+}
+
+.img-quemsomos{
+    width: 90%;
+    margin-top: 30px;
+}
+
+.col-img-quemsomos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.col-img-quemsomos:hover{
+	opacity: .6;
+}
+
+/*Nossos Servicos*/
+.nossos-servicos{
+	background-color: #044676;
+}
+
+.titulo-servicos{
+	margin: auto;
+	color: #fff;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	font-size: 2rem;
+}
+
+.serv-row{
+	justify-content: center;
+}
+
+.col-serv{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.card-servs{
+	-webkit-box-shadow: 6px 6px 4px 4px rgba(3,54,90,1);
+	-moz-box-shadow: 6px 6px 4px 4px rgba(3,54,90,1);
+	box-shadow: 6px 6px 4px 4px rgba(3,54,90,1);
+	 opacity: 0;
+	/*transform: translateY(50px);*/
+	transition: all 1s ease-out;
+}
+.card-servs.fade-in{
+	opacity: 1;
+/*	transform: translateY(0);*/
+}
+
+
+.imgs-serv{
+	margin: auto;
+	margin-top: 30px;
+
+}
+.imgs-serv:hover{
+	opacity: .6;
+}
+.btn-servico{
+	background-color: #044676;
+}
+.btn-servico:hover{
+	background-color: #055e9e;
+}
+.card-body-serv{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/*FOOTER*/
+
+.footer{
+	background-color: #044676;
+}
+
+.link-footer{
+	color: white;
+	font-size: 0.9rem;
+}
+.link-footer:hover{
+     color: lightblue;
+     text-decoration: none;
+
+}
+
+/* APOIADORES*/
+
+.apoiadores{
+	background-color: #fff;
+	margin-bottom: 10px;
+	padding: 50px;
+}
+
+.imgs-apoiadores{
+	width: 100%;
+	margin:10px;
+}
+
+.apoiador-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*CONTATO*/
+
+.contato{
+	background-color: #f7f7f7;
+    padding: 20px 0px 30px 0px;
+}
+
+.contato-form{
+	width: 100%;
+}
+
+.titulo-contatos{
+	color:  #044676;
+}
+
+.titulo-contato{
+    margin-bottom: 2.5rem;
+}
+
+.contato-pad{
+	padding-top: 20px;
+	/*padding-left: 100px;*/
+}
+
+.info-blocks{
+	margin-top: 40px;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+
+
+
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+*/
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	header{
+			background-image: url(../img/people2.jpg);
+			background-size: cover;
+			background-position: top center ;
+			height: 100vh;
+	}
+	.servicos-texto{
+		text-align: center;
+		color: white;
+		visibility: visible;
+	}
+	.card-img-top {
+    	width: 30%;
+	}
+	.img-quemsomos {
+    width: 60%;
+   	}
+   	.imgs-apoiadores {
+	    width: 40%;
+	    margin: 10px;
+	}
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.mensagem-header {
+	    background-color: transparent;
+	    border: none;
+    	top: 20%;
+    	left: 5%;
+	    position: absolute;
+	}
+	.img-quemsomos {
+    	width: 100%;
+    	margin-top: 20px;
+	}
+	.imgs-apoiadores {
+	    width: 40%;
+	    margin: 10px;
+	}
+	.card-img-top {
+    	width: 50%;
+	}
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.img-quemsomos {
+    	width: 60%;
+    	margin-top: 0px;
+	}
+	.imgs-apoiadores {
+	    width: 50%;
+	    margin: 10px;
+	}
+	.card-img-top {
+    	width: 30%;
+	}
+	.contato-pad-info{
+		padding-left: 100px;
+	}
+}
+
+/*// Extra large devices (large desktops, 1200px and up)
+*/@media (min-width: 1200px) {
+	.img-quemsomos {
+    	width: 50%;
+    	margin-top: 0px;
+	}
+	.imgs-apoiadores {
+	    width: 50%;
+	    margin: 10px;
+	}
+	.card-img-top {
+    	width: 60%;
+	}
+}

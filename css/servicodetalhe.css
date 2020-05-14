@@ -1,0 +1,158 @@
+html,body{
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f7f7f7;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+/*Header*/
+
+.navbar-toggler-icon{
+	color: white;
+}
+
+.item-menu{
+	color: #044676!important;
+}
+
+.item-menu-azul{
+	color: #044676!important;
+}
+
+.navbar-bg{
+	background-color: #ffffff;
+}
+.navbar-white{
+	background-color: white;
+}
+.justify-navbar{
+	justify-content: flex-end;
+}
+
+
+/*Section analise e descriçao de cargo*/
+
+.container-desc{
+	height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.descricao-e-analise{
+	background-color: #f7f7f7;
+	flex: 1 0 auto;
+}
+
+.titulo-desc{
+	font-size: 1.5rem;
+	margin-top: 30px;
+	color: #044676;
+}
+.texto-desc{
+	padding:20px;
+	text-align: justify;
+}
+.titulo-contato{
+	font-size: 1.5rem;
+	color: #044676;
+	margin-bottom: 30px;
+}
+
+.contato-form{
+	padding: 20px;
+}
+.div-btn-contato{
+	display: flex;
+	justify-content: flex-end;
+}
+
+/*FOOTER*/
+
+.footer{
+	background-color: #044676;
+	width: 100%;
+	height: 25px;
+    flex-shrink: 0;
+}
+
+.push{
+	height: 25px;
+}
+
+
+.link-footer{
+	color: white;
+	font-size: 0.9rem;
+}
+.link-footer:hover{
+     color: lightblue; 
+     text-decoration: none; 
+
+}
+
+/*Confirmação*/
+
+.container-confirmacao{
+	height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.row-confirmacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.card-confirmacao{
+	border: none;
+	background-color: #f7f7f7;
+}
+
+
+
+
+
+
+
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+*/
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.titulo-contato{
+		margin-top: 30px;
+	}
+	
+	
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	
+	.titulo-desc{
+		font-size: 2rem;
+	}
+	.titulo-contato{
+		font-size: 2rem;
+	}
+	
+}
+
+/*// Extra large devices (large desktops, 1200px and up)
+*/@media (min-width: 1200px) {
+	
+}
