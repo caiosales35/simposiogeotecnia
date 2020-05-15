@@ -126,6 +126,7 @@ main{
 }
 .quem-somos-texto{
 	color: #353435;
+	text-align: justify;
 }
 
 .btn-quemsomos{
