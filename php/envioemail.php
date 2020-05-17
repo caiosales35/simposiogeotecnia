@@ -7,12 +7,12 @@
         exit;
     }
 
-    $email_to = "matheus.bortoleto@catijr.com.br";
+    $email_to = "caiosales35@gmail.com";
 
     if(!isset($_POST["tipo"])) {
-        $email_subject = "Pedido de orçamento";
+        $email_subject = "Contato Simpósio de Geotecnia e Meio Ambiente ";
     } else {
-        $email_subject = "Pedido de orçamento - " . $_POST["tipo"];
+        $email_subject = "Contato Simpósio de Geotecnia e Meio Ambiente - " . $_POST["tipo"];
     }
 
     $name = $_POST["nome"];
