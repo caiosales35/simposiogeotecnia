@@ -1,5 +1,5 @@
 # Site para Divulgação de Evento
-Site para a professora Marcilene relacionado ao simposio online de geotecnia do deciv.
+Site para divulgação do simposio online de geotecnia do deciv.
 
 #### Tecnologias Utilizadas
 * HTML
